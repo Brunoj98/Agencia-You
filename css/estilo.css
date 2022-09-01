@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bangers&family=Edu+QLD+Beginner:wght@400;500;600;700&family=Lobster&family=Pacifico&family=Shadows+Into+Light&family=Trispace:wght@600&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Edu QLD Beginner', cursive;
+
+}
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    flex: 20%;
+    margin-left: 10%;
+    /* border: 1px solid red; */
+    text-align: left;
+    font-family: 'Lobster', cursive;
+
+}
+
+.logo h1 {
+    font-family: 'Lobster', cursive;
+    color: #4B0082;
+    font-size: 34px;
+
+}
+
+.menu {
+    flex: 70%;
+    /* border: 1px solid blue; */
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a {
+    color: #4B0082;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.menu a:hover {
+    color: #FF2978;
+    border-top: 4px solid #4B0082;
+}
+
+#botao {
+    background: #4B0082;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#botao:hover {
+    border: none;
+    background: #FF2978;
+
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline {
+    margin-left: 10%;
+    flex: 40%;
+
+    text-align: center;
+}
+
+.headline h2 {
+    font-weight: 900;
+    font-size: 20px;
+    color: #4B0082;
+    padding: 0;
+    margin: 0;
+}
+
+.headline p {
+    color: gray;
+    text-align: left;
+
+}
+
+.contact-btn {
+    display: inline-block;
+    background-color: #FF2978;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact-btn:hover {
+    background: #4B0082;
+}
+
+.img-headline {
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+
+}
+
+section {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    text-align: center;
+    width: 90%;
+
+}
+
+section h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    color: #4B0082;
+
+}
+
+.servicos {
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #FF2978;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: #FF2978;
+
+}
+
+
+footer {
+    margin-top: 100px;
+    height: 400px;
+    background-image: linear-gradient(180deg, #4B0082, #350259, #000000);
+    text-align: center;
+    border-top: 5px solid #FF2978;
+}
+
+.logo-rodape {
+    padding: 100px;
+}
+
+.agencia {
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 34px;
+}
+
+.fale-conosco {
+    width: 130px;
+    position: fixed;
+    bottom: 0px;
+    right: 15px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:770px) {
+
+    .img-headline {
+        display: none;
+
+    }
+}
+
+@media screen and (max-width:791px) {
+    #botao {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .headline {
+        margin-top: 20px;
+    }
+}
